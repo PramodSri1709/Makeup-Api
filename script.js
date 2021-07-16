@@ -245,7 +245,7 @@ function handleChange2() {
 
         try {
 
-            var data3 = await fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?&product_type=${value2}`)
+            var data3 = await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?&product_type=${value2}`)
 
             var resData3 = await data3.json();
 
@@ -393,7 +393,7 @@ function handleChange(e) {
             }
 
 
-            var data = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json?brand=" + value);
+            var data = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=" + value);
 
             var resData = await data.json();
 
